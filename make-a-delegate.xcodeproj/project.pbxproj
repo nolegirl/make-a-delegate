@@ -21,6 +21,7 @@
 		2235D1E0192E257B00FD8C21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2235D1C2192E257B00FD8C21 /* UIKit.framework */; };
 		2235D1E8192E257B00FD8C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2235D1E6192E257B00FD8C21 /* InfoPlist.strings */; };
 		2235D1EA192E257B00FD8C21 /* make_a_delegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235D1E9192E257B00FD8C21 /* make_a_delegateTests.m */; };
+		2235D1F5192E263600FD8C21 /* DELDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2235D1F4192E263600FD8C21 /* DELDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2235D1E5192E257B00FD8C21 /* make-a-delegateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "make-a-delegateTests-Info.plist"; sourceTree = "<group>"; };
 		2235D1E7192E257B00FD8C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2235D1E9192E257B00FD8C21 /* make_a_delegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = make_a_delegateTests.m; sourceTree = "<group>"; };
+		2235D1F3192E263600FD8C21 /* DELDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DELDetailViewController.h; sourceTree = "<group>"; };
+		2235D1F4192E263600FD8C21 /* DELDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DELDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2235D1D0192E257B00FD8C21 /* Main.storyboard */,
 				2235D1D3192E257B00FD8C21 /* DELViewController.h */,
 				2235D1D4192E257B00FD8C21 /* DELViewController.m */,
+				2235D1F3192E263600FD8C21 /* DELDetailViewController.h */,
+				2235D1F4192E263600FD8C21 /* DELDetailViewController.m */,
 				2235D1D6192E257B00FD8C21 /* Images.xcassets */,
 				2235D1C5192E257B00FD8C21 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				2235D1D5192E257B00FD8C21 /* DELViewController.m in Sources */,
 				2235D1CF192E257B00FD8C21 /* DELAppDelegate.m in Sources */,
 				2235D1CB192E257B00FD8C21 /* main.m in Sources */,
+				2235D1F5192E263600FD8C21 /* DELDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				2235D1EF192E257B00FD8C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2235D1F0192E257B00FD8C21 /* Build configuration list for PBXNativeTarget "make-a-delegateTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				2235D1F2192E257B00FD8C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
